@@ -66,7 +66,7 @@ The following procedure describes how to install the SDK\.
 **Tip**  
 You can type **bridging** in the search box of Xcode to locate the **Objective\-C Bridging Header** property\.
 
-   1. Build the Xcode project to verify that it is properly configured before proceeding further\. If your Xcode uses a more recent version of Swift than the one supported for the AWS Mobile SDK, you will get Swift compiler errors\. In this case, set the **Use Legacy Swift Language Version** property to **Yes** under the **Swift Compiler \- Version** setting:  
+   1. Build the Xcode project to verify that it is properly configured before proceeding further\. If your Xcode uses a more recent version of Swift than the one supported for the AWS Mobile SDK, you will get Swift compiler errors\. If you are using Xcode 10.1, set Swift to version 3. In this case, set the **Use Legacy Swift Language Version** property to **Yes** under the **Swift Compiler \- Version** setting:  
 ![\[\]](http://docs.aws.amazon.com/apigateway/latest/developerguide/images/use-sdk-in-ios-swift-project-set-legacy-swift-version.png)
 
    To import the AWS Mobile SDK for iOS in Swift into your project by explicitly downloading the AWS Mobile SDK or using [Carthage](https://github.com/Carthage/Carthage#installing-carthage), follow the instructions in the `README.md` file that comes with the SDK package\. Be sure to use only one of these options to import the AWS Mobile SDK\.
